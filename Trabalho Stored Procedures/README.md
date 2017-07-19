@@ -1,5 +1,5 @@
 
-#Questão 1. Como todos sabem, o estado do Rio de Janeiro bem passando uma por uma severa crise financeira. Dessa forma, o governo estadual cogita diminuir horas de trabalho e salários de muitos funcionários. (fonte: http://oglobo.globo.com/rio/rj-estuda-reduzir-jornada-salarios-de-servidores-do-estado-20358106)
+# Questão 1. Como todos sabem, o estado do Rio de Janeiro bem passando uma por uma severa crise financeira. Dessa forma, o governo estadual cogita diminuir horas de trabalho e salários de muitos funcionários. (fonte: http://oglobo.globo.com/rio/rj-estuda-reduzir-jornada-salarios-de-servidores-do-estado-20358106)
 
 Você foi contratado para atualizar o banco de dados dos funcionários estaduais de acordo com as novas diretrizes. Considere a tabela FUNCIONARIO apresentada como base para os itens a seguir. As respostas podem ser dadas para os SGBDs mySQL, SQL Server, Oracle e PostgreSQL. Cada grupo deve enviar um zip ou rar com os scripts de criação dos objetos.
 
@@ -49,7 +49,7 @@ Sugestão: criem uma tabela que controle as faltas e justificativas e uma trigge
 
 3. O governo do estado também deseja controlar todas as promoções dos funcionários ao longo do anos. Assim como no caso das faltas, esse mecanismo não se encontra implementado no banco de dados. É sua responsabilidade implementar esse controle. Cada funcionário possui um cargo (que por simplificação pode variar entre CARGO1, CARGO2 e CARGO 3) e seu nível pode variar entre 1 e 7. Ou seja, o funcionário pode ter o CARGO1 e Nível 5 no momento, e, na próxima promoção ele terá o CARGO1 (que não muda) e Nível 6, e assim por diante. Lembrando que cada funcionário só pode aumentar seu nível de 3 em 3 anos e não pode haver interseção de períodos entre dois níveis. Além disso, um funcionário só pode ser promovido para o nível imediatamente superior ao atual, logo uma promoção do Nível 1 para o Nível 3 é proibida. Desenvolva uma stored procedure que implemente a promoção de um determinado funcionário. Sua stored procedure deve receber o CPF do funcionário e o nível para promoção como parâmetros de entrada.
 
-#Questão 2. A seguir é apresentado o esquema relacional (script de criação de tabelas) relativo ao cadastramento de receitas e avaliações de receitas para o site da Palmirinha, famosa doceira da TV. Considere esse esquema para resolver os itens a seguir.
+# Questão 2. A seguir é apresentado o esquema relacional (script de criação de tabelas) relativo ao cadastramento de receitas e avaliações de receitas para o site da Palmirinha, famosa doceira da TV. Considere esse esquema para resolver os itens a seguir.
 
 
 
